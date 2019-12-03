@@ -80,6 +80,15 @@
                                 <rect key="frame" x="61" y="289" width="333" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oti-9d-jMg">
+                                <rect key="frame" x="137" y="527" width="142" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Add Another Item"/>
+                                <connections>
+                                    <segue destination="2Zq-tX-AKc" kind="show" id="ZuL-5T-93P"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HAt-3P-SnM"/>
@@ -229,6 +238,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Zq-tX-AKc" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Products" id="btQ-sL-xqx"/>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="GCW-HZ-ctk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="58L-LA-IFv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -324,10 +334,13 @@
     <resources>
         <image name="button-addtocart" width="851" height="178"/>
         <image name="header-contact" width="600" height="400"/>
-        <image name="icon-about-email" width="34.5" height="34.5"/>
-        <image name="icon-about-phone" width="34.5" height="34.5"/>
-        <image name="icon-about-website" width="34.5" height="34.5"/>
+        <image name="icon-about-email" width="448" height="459"/>
+        <image name="icon-about-phone" width="460" height="424"/>
+        <image name="icon-about-website" width="450" height="400"/>
         <image name="img1" width="200" height="200"/>
         <image name="img2" width="100" height="100"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZuL-5T-93P"/>
+    </inferredMetricsTieBreakers>
 </document>

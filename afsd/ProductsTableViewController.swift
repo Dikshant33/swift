@@ -17,10 +17,10 @@ class ProductsTableViewController: UITableViewController {
         super.viewDidLoad()
         
         products = [
-            Product(name: "Roasted-Sweet Potatoes", cellImageName: "image-cell1", fullscreenImageName: "phone-fullscreen1"),
-            Product(name: "Butternut Squash Linguine", cellImageName: "image-cell2", fullscreenImageName: "phone-fullscreen2"),
-            Product(name: "Carrot Soba Noodles", cellImageName: "image-cell3", fullscreenImageName: "phone-fullscreen3"),
-            Product(name: "Spaghetti Squash Burrito", cellImageName: "image-cell4", fullscreenImageName: "phone-fullscreen4")
+            Product(name: "Roasted-Sweet Potatoes", cellImageName: "image-cell1", fullscreenImageName: "restaurant-fullscreen1"),
+            Product(name: "Butternut Squash Linguine", cellImageName: "image-cell2", fullscreenImageName: "restaurant-fullscreen2"),
+            Product(name: "Carrot Soba Noodles", cellImageName: "image-cell3", fullscreenImageName: "restaurant-fullscreen3"),
+            Product(name: "Spaghetti Squash Burrito", cellImageName: "image-cell4", fullscreenImageName: "restaurant-fullscreen4")
         ]
         
 
