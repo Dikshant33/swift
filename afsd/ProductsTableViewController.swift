@@ -20,16 +20,13 @@ class ProductsTableViewController: UITableViewController {
             Product(name: "Roasted-Sweet Potatoes", cellImageName: "image-cell1", fullscreenImageName: "restaurant-fullscreen1"),
             Product(name: "Butternut Squash Linguine", cellImageName: "image-cell2", fullscreenImageName: "restaurant-fullscreen2"),
             Product(name: "Carrot Soba Noodles", cellImageName: "image-cell3", fullscreenImageName: "restaurant-fullscreen3"),
-            Product(name: "Spaghetti Squash Burrito", cellImageName: "image-cell4", fullscreenImageName: "restaurant-fullscreen4")
+            Product(name: "Spaghetti Squash Burrito", cellImageName: "image-cell4", fullscreenImageName: "restaurant-fullscreen4"),
+            Product(name: "Pinto Posole", cellImageName: "image-cell5", fullscreenImageName:"restaurant-fullscreen5" ),
+            Product(name: "Hummus Quasedillas", cellImageName: "image-cell6", fullscreenImageName: "restaurant-fullscreen6")
         ]
         
 
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     
